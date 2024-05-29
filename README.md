@@ -2,7 +2,7 @@
 import numpy as np
 from dwave.system import DWaveSampler, EmbeddingComposite
 import dimod
-token="DEV-abdc4c7339474eacea7a99b9e4269e22f667d3f2"
+token='put your token here"
 solver = 'Advantage_system6.4'
 # Example sets
 sets = [{1, 2, 3}, {4}, {5,1}, { 5, 4}, {2,3}]
